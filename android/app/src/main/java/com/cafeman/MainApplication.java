@@ -1,4 +1,4 @@
-package com.aditrain;
+package com.cafeman;
 
 import android.app.Application;
 import android.content.Context;

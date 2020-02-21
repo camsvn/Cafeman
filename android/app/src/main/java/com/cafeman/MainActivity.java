@@ -1,4 +1,4 @@
-package com.aditrain;
+package com.cafeman;
 
 import com.facebook.react.ReactActivity;
 
