@@ -1,6 +1,6 @@
 import React from 'react';
-import Task1 from './src/components/Task1.js';
+import Task from './src/components/Task2.js';
 
 export default function App() {
-  return <Task1 />;
+  return <Task />;
 }
