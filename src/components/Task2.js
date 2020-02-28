@@ -41,14 +41,14 @@ class Task2 extends Component {
           </Body>
         </Header>
         <Content padder>
-          <Card style={styles.firstCard}>
+          <Card style={{...styles.firstCard, height: 120}}>
             <CardItem>
               <Text />
               <Editicon />
             </CardItem>
-            <CardItem>
+            <CardItem style={{flexDirection: 'row', justifyContent: 'center'}}>
               <Image
-                style={styles.image}
+                style={{...styles.image, top: -90}}
                 resizeMode={'cover'}
                 source={{
                   uri:
@@ -148,8 +148,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     height: 100,
     width: 100,
-    top: -90,
-    left: 130,
     borderRadius: 50,
     borderColor: '#ddd',
     borderWidth: 2,
